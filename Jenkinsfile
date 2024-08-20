@@ -5,7 +5,7 @@ pipeline {
         jdk 'openjdk 17'
     }
     environment {
-        JAVA_HOME = '/var/run/openjdk-17
+        JAVA_HOME = '/var/run/openjdk-17'
     }
     stages {
         stage('Build') {
