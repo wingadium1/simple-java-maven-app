@@ -1,9 +1,5 @@
 pipeline {
     agent any
-    tools {
-        maven 'Maven 3.9.9'
-        jdk 'openjdk 17'
-    }
     environment {
         JAVA_HOME = '/var/run/openjdk-17'
     }
